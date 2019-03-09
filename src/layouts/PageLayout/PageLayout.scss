@@ -1,0 +1,27 @@
+header
+{
+    background-color: #2980b9;
+}
+
+header .navbar-brand
+{
+    color:#fff !important
+}
+
+.nav-link
+{
+    color: #fff !important
+}
+.active
+{
+    text-decoration: underline
+}
+
+header .navbar-collapse .navbar-nav{
+    flex-basis: 100% !important;
+    @media (min-width: 992px)
+    {
+        flex-basis:auto !important;
+    }
+}
+
